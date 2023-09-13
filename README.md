@@ -1,16 +1,16 @@
 # folder-structure-creator-
 A nodejs server for creating folder structure for projects in your system
 
-# Prerequisites 
+## Prerequisites 
 - Node Installed (tested in node 18)
 - Postman or other softwares to hit the api
 
-# How to run server
+## How to run server
 ```
 npm i
 npm start
 ```
-# Sample request
+## Sample request
 
 ```
 --------------------url----------------
