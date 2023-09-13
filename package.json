@@ -1,5 +1,5 @@
 {
-  "name": "folder-structure-creator",
+  "name": "folder-magic-app",
   "version": "1.0.0",
   "description": "A nodejs server for creating folder structure for projects in your computer",
   "main": "app.js",
