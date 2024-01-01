@@ -1,0 +1,43 @@
+POST http://localhost:3000/createFolderStructure HTTP/1.1
+content-type: application/json
+
+{
+    "basePath": "D:/WOP/web-projects/IntelliExam/backend",
+    "structure":{
+          "src":{
+            "index.ts":"",
+            "assets":{
+                "images":{},
+                "fonts":{},
+                "templates":{}
+            },
+            "app":{
+                "index.ts":"",
+                "api":{
+                    "routes":{},
+                    "middlewares":{},
+                    "controllers":{}
+                },
+                "services":{},
+                "database":{
+                    "repository":{},
+                    "connection.ts":"",
+                    "index.ts":""
+                },
+                "utils":{
+                    "index.ts":"",
+                    "error-handler.ts":"",
+                    "app-errors.ts":""
+                },
+                "config":{
+                    "config.ts":"",
+                    "constants.ts":""
+                }
+            },
+            "uploads":{},
+            "tests":{}
+        },
+        "Dockerfile":"",
+        ".gitignore":""
+    }
+}
